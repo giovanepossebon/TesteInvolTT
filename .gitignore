@@ -1,0 +1,18 @@
+### CocoaPods ###
+Source/Pods/
+
+### macOS ###
+*.DS_Store
+
+### Xcode ###
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
