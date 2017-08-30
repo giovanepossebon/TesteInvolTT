@@ -107,7 +107,6 @@
 		744B18921F55D67800169CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417852E1F4BAA360066E23B /* AppDelegate.swift */; };
 		744B18931F55D67900169CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417852E1F4BAA360066E23B /* AppDelegate.swift */; };
 		744B18941F55D69200169CBF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B901F529CE40052FA94 /* MainPresenter.swift */; };
-		744B18951F55D69200169CBF /* MainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B911F529CE40052FA94 /* MainWorker.swift */; };
 		744B18961F55D69200169CBF /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B921F529CE40052FA94 /* MainRouter.swift */; };
 		744B18971F55D69200169CBF /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B931F529CE40052FA94 /* MainInitializer.swift */; };
 		744B18981F55D69200169CBF /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B941F529CE40052FA94 /* MainModels.swift */; };
@@ -115,7 +114,6 @@
 		744B189A1F55D69200169CBF /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B971F529CE40052FA94 /* MainConfigurator.swift */; };
 		744B189B1F55D69200169CBF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BA01F529D0D0052FA94 /* MainViewController.swift */; };
 		744B189C1F55D69300169CBF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B901F529CE40052FA94 /* MainPresenter.swift */; };
-		744B189D1F55D69300169CBF /* MainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B911F529CE40052FA94 /* MainWorker.swift */; };
 		744B189E1F55D69300169CBF /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B921F529CE40052FA94 /* MainRouter.swift */; };
 		744B189F1F55D69300169CBF /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B931F529CE40052FA94 /* MainInitializer.swift */; };
 		744B18A01F55D69300169CBF /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B941F529CE40052FA94 /* MainModels.swift */; };
@@ -148,7 +146,6 @@
 		74C90F431F4CC4BA008C0B6E /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C90F421F4CC4BA008C0B6E /* UIView+Borders.swift */; };
 		74C90F461F4CCE49008C0B6E /* InvolvesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C90F451F4CCE49008C0B6E /* InvolvesAPI.swift */; };
 		74E36B981F529CE40052FA94 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B901F529CE40052FA94 /* MainPresenter.swift */; };
-		74E36B991F529CE40052FA94 /* MainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B911F529CE40052FA94 /* MainWorker.swift */; };
 		74E36B9A1F529CE40052FA94 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B921F529CE40052FA94 /* MainRouter.swift */; };
 		74E36B9B1F529CE40052FA94 /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B931F529CE40052FA94 /* MainInitializer.swift */; };
 		74E36B9C1F529CE40052FA94 /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B941F529CE40052FA94 /* MainModels.swift */; };
@@ -158,7 +155,6 @@
 		74E36BA31F529D0D0052FA94 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E36BA11F529D0D0052FA94 /* MainViewController.xib */; };
 		74E36BA61F52A7A10052FA94 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BA51F52A7A10052FA94 /* CustomStackView.swift */; };
 		74E36BB21F537C470052FA94 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAA1F537C470052FA94 /* FeedPresenter.swift */; };
-		74E36BB31F537C470052FA94 /* FeedWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAB1F537C470052FA94 /* FeedWorker.swift */; };
 		74E36BB41F537C470052FA94 /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAC1F537C470052FA94 /* FeedRouter.swift */; };
 		74E36BB51F537C470052FA94 /* FeedInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAD1F537C470052FA94 /* FeedInitializer.swift */; };
 		74E36BB61F537C470052FA94 /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAE1F537C470052FA94 /* FeedModels.swift */; };
@@ -180,9 +176,6 @@
 		74E36BDA1F5449B30052FA94 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD21F5449B30052FA94 /* SearchPresenter.swift */; };
 		74E36BDB1F5449B30052FA94 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD21F5449B30052FA94 /* SearchPresenter.swift */; };
 		74E36BDC1F5449B30052FA94 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD21F5449B30052FA94 /* SearchPresenter.swift */; };
-		74E36BDD1F5449B30052FA94 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD31F5449B30052FA94 /* SearchWorker.swift */; };
-		74E36BDE1F5449B30052FA94 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD31F5449B30052FA94 /* SearchWorker.swift */; };
-		74E36BDF1F5449B30052FA94 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD31F5449B30052FA94 /* SearchWorker.swift */; };
 		74E36BE01F5449B30052FA94 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD41F5449B30052FA94 /* SearchRouter.swift */; };
 		74E36BE11F5449B30052FA94 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD41F5449B30052FA94 /* SearchRouter.swift */; };
 		74E36BE21F5449B30052FA94 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BD41F5449B30052FA94 /* SearchRouter.swift */; };
@@ -213,9 +206,6 @@
 		74E36C0B1F5478130052FA94 /* TrendsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C031F5478130052FA94 /* TrendsPresenter.swift */; };
 		74E36C0C1F5478130052FA94 /* TrendsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C031F5478130052FA94 /* TrendsPresenter.swift */; };
 		74E36C0D1F5478130052FA94 /* TrendsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C031F5478130052FA94 /* TrendsPresenter.swift */; };
-		74E36C0E1F5478130052FA94 /* TrendsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C041F5478130052FA94 /* TrendsWorker.swift */; };
-		74E36C0F1F5478130052FA94 /* TrendsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C041F5478130052FA94 /* TrendsWorker.swift */; };
-		74E36C101F5478130052FA94 /* TrendsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C041F5478130052FA94 /* TrendsWorker.swift */; };
 		74E36C111F5478130052FA94 /* TrendsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C051F5478130052FA94 /* TrendsRouter.swift */; };
 		74E36C121F5478130052FA94 /* TrendsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C051F5478130052FA94 /* TrendsRouter.swift */; };
 		74E36C131F5478130052FA94 /* TrendsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C051F5478130052FA94 /* TrendsRouter.swift */; };
@@ -320,7 +310,6 @@
 		74C90F421F4CC4BA008C0B6E /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Borders.swift"; path = "Common/Extensions/UIView+Borders.swift"; sourceTree = "<group>"; };
 		74C90F451F4CCE49008C0B6E /* InvolvesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InvolvesAPI.swift; path = Common/API/InvolvesAPI.swift; sourceTree = "<group>"; };
 		74E36B901F529CE40052FA94 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPresenter.swift; path = Modules/Main/MainPresenter.swift; sourceTree = "<group>"; };
-		74E36B911F529CE40052FA94 /* MainWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWorker.swift; path = Modules/Main/MainWorker.swift; sourceTree = "<group>"; };
 		74E36B921F529CE40052FA94 /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainRouter.swift; path = Modules/Main/MainRouter.swift; sourceTree = "<group>"; };
 		74E36B931F529CE40052FA94 /* MainInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainInitializer.swift; path = Modules/Main/MainInitializer.swift; sourceTree = "<group>"; };
 		74E36B941F529CE40052FA94 /* MainModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainModels.swift; path = Modules/Main/MainModels.swift; sourceTree = "<group>"; };
@@ -330,7 +319,6 @@
 		74E36BA11F529D0D0052FA94 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = Modules/Main/MainViewController.xib; sourceTree = "<group>"; };
 		74E36BA51F52A7A10052FA94 /* CustomStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomStackView.swift; path = Common/Components/CustomStackView.swift; sourceTree = "<group>"; };
 		74E36BAA1F537C470052FA94 /* FeedPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedPresenter.swift; path = Modules/Feed/FeedPresenter.swift; sourceTree = "<group>"; };
-		74E36BAB1F537C470052FA94 /* FeedWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedWorker.swift; path = Modules/Feed/FeedWorker.swift; sourceTree = "<group>"; };
 		74E36BAC1F537C470052FA94 /* FeedRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedRouter.swift; path = Modules/Feed/FeedRouter.swift; sourceTree = "<group>"; };
 		74E36BAD1F537C470052FA94 /* FeedInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedInitializer.swift; path = Modules/Feed/FeedInitializer.swift; sourceTree = "<group>"; };
 		74E36BAE1F537C470052FA94 /* FeedModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedModels.swift; path = Modules/Feed/FeedModels.swift; sourceTree = "<group>"; };
@@ -343,7 +331,6 @@
 		74E36BC71F543BCF0052FA94 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TweetCell.xib; path = Modules/Feed/TweetCell.xib; sourceTree = "<group>"; };
 		74E36BCE1F543E530052FA94 /* FeedViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FeedViewController+TableView.swift"; path = "Modules/Feed/FeedViewController+TableView.swift"; sourceTree = "<group>"; };
 		74E36BD21F5449B30052FA94 /* SearchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchPresenter.swift; path = Modules/Search/SearchPresenter.swift; sourceTree = "<group>"; };
-		74E36BD31F5449B30052FA94 /* SearchWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchWorker.swift; path = Modules/Search/SearchWorker.swift; sourceTree = "<group>"; };
 		74E36BD41F5449B30052FA94 /* SearchRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchRouter.swift; path = Modules/Search/SearchRouter.swift; sourceTree = "<group>"; };
 		74E36BD51F5449B30052FA94 /* SearchInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchInitializer.swift; path = Modules/Search/SearchInitializer.swift; sourceTree = "<group>"; };
 		74E36BD61F5449B30052FA94 /* SearchModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchModels.swift; path = Modules/Search/SearchModels.swift; sourceTree = "<group>"; };
@@ -354,7 +341,6 @@
 		74E36BFB1F5456D90052FA94 /* SearchViewController+UISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SearchViewController+UISearchBar.swift"; path = "Modules/Search/SearchViewController+UISearchBar.swift"; sourceTree = "<group>"; };
 		74E36BFF1F545CAC0052FA94 /* SearchViewController+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SearchViewController+UITableView.swift"; path = "Modules/Search/SearchViewController+UITableView.swift"; sourceTree = "<group>"; };
 		74E36C031F5478130052FA94 /* TrendsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrendsPresenter.swift; path = Modules/Trends/TrendsPresenter.swift; sourceTree = "<group>"; };
-		74E36C041F5478130052FA94 /* TrendsWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrendsWorker.swift; path = Modules/Trends/TrendsWorker.swift; sourceTree = "<group>"; };
 		74E36C051F5478130052FA94 /* TrendsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrendsRouter.swift; path = Modules/Trends/TrendsRouter.swift; sourceTree = "<group>"; };
 		74E36C061F5478130052FA94 /* TrendsInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrendsInitializer.swift; path = Modules/Trends/TrendsInitializer.swift; sourceTree = "<group>"; };
 		74E36C071F5478130052FA94 /* TrendsModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrendsModels.swift; path = Modules/Trends/TrendsModels.swift; sourceTree = "<group>"; };
@@ -577,7 +563,6 @@
 			isa = PBXGroup;
 			children = (
 				74E36B901F529CE40052FA94 /* MainPresenter.swift */,
-				74E36B911F529CE40052FA94 /* MainWorker.swift */,
 				74E36B921F529CE40052FA94 /* MainRouter.swift */,
 				74E36B931F529CE40052FA94 /* MainInitializer.swift */,
 				74E36B941F529CE40052FA94 /* MainModels.swift */,
@@ -647,7 +632,6 @@
 			children = (
 				74E36C2B1F5478B00052FA94 /* VIews */,
 				74E36C031F5478130052FA94 /* TrendsPresenter.swift */,
-				74E36C041F5478130052FA94 /* TrendsWorker.swift */,
 				74E36C051F5478130052FA94 /* TrendsRouter.swift */,
 				74E36C061F5478130052FA94 /* TrendsInitializer.swift */,
 				74E36C071F5478130052FA94 /* TrendsModels.swift */,
@@ -662,7 +646,6 @@
 			children = (
 				74E36BF21F5449C40052FA94 /* Views */,
 				74E36BD21F5449B30052FA94 /* SearchPresenter.swift */,
-				74E36BD31F5449B30052FA94 /* SearchWorker.swift */,
 				74E36BD41F5449B30052FA94 /* SearchRouter.swift */,
 				74E36BD51F5449B30052FA94 /* SearchInitializer.swift */,
 				74E36BD61F5449B30052FA94 /* SearchModels.swift */,
@@ -677,7 +660,6 @@
 			children = (
 				74E36BC51F543BAE0052FA94 /* View */,
 				74E36BAA1F537C470052FA94 /* FeedPresenter.swift */,
-				74E36BAB1F537C470052FA94 /* FeedWorker.swift */,
 				74E36BAC1F537C470052FA94 /* FeedRouter.swift */,
 				74E36BAD1F537C470052FA94 /* FeedInitializer.swift */,
 				74E36BAE1F537C470052FA94 /* FeedModels.swift */,
@@ -1069,7 +1051,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E36BEF1F5449B30052FA94 /* SearchConfigurator.swift in Sources */,
-				74E36B991F529CE40052FA94 /* MainWorker.swift in Sources */,
 				74E36BB61F537C470052FA94 /* FeedModels.swift in Sources */,
 				74871D081F4E2EAF00E77C30 /* SHA1.swift in Sources */,
 				74E36C0B1F5478130052FA94 /* TrendsPresenter.swift in Sources */,
@@ -1091,12 +1072,10 @@
 				7423C71D1F524505009F75D1 /* TwitterTimeline.swift in Sources */,
 				7423C71F1F52466D009F75D1 /* TwitterTrends.swift in Sources */,
 				74E36BB81F537C470052FA94 /* FeedInteractor.swift in Sources */,
-				74E36BB31F537C470052FA94 /* FeedWorker.swift in Sources */,
 				74E36C1A1F5478130052FA94 /* TrendsViewController.swift in Sources */,
 				7417858D1F4BC1260066E23B /* LoginInitializer.swift in Sources */,
 				74E36C2D1F5478DD0052FA94 /* TrendsViewController+UITableView.swift in Sources */,
 				74871D021F4E2DC300E77C30 /* AppOnlyClient.swift in Sources */,
-				74E36C0E1F5478130052FA94 /* TrendsWorker.swift in Sources */,
 				74871CEC1F4E051100E77C30 /* JSON.swift in Sources */,
 				74E36BB41F537C470052FA94 /* FeedRouter.swift in Sources */,
 				74E36BA61F52A7A10052FA94 /* CustomStackView.swift in Sources */,
@@ -1123,7 +1102,6 @@
 				7417858A1F4BC1260066E23B /* LoginRouter.swift in Sources */,
 				7423C7211F5246A4009F75D1 /* TwitterSearch.swift in Sources */,
 				741785901F4BC1260066E23B /* LoginModels.swift in Sources */,
-				74E36BDD1F5449B30052FA94 /* SearchWorker.swift in Sources */,
 				7417859F1F4BC1500066E23B /* LoginViewController.swift in Sources */,
 				74871CF21F4E088700E77C30 /* TwitterAuth.swift in Sources */,
 				74E36BE61F5449B30052FA94 /* SearchModels.swift in Sources */,
@@ -1151,7 +1129,6 @@
 				7417858E1F4BC1260066E23B /* LoginInitializer.swift in Sources */,
 				744B18721F55D66800169CBF /* AppOnlyClient.swift in Sources */,
 				741785851F4BC1260066E23B /* LoginPresenter.swift in Sources */,
-				74E36C0F1F5478130052FA94 /* TrendsWorker.swift in Sources */,
 				744B18841F55D67100169CBF /* Operator++.swift in Sources */,
 				744B18851F55D67100169CBF /* Data+Extension.swift in Sources */,
 				744B18481F55D57C00169CBF /* FeedModels.swift in Sources */,
@@ -1166,7 +1143,6 @@
 				74E36BEA1F5449B30052FA94 /* SearchViewController.swift in Sources */,
 				744B189B1F55D69200169CBF /* MainViewController.swift in Sources */,
 				744B18731F55D66800169CBF /* TwitterTimeline.swift in Sources */,
-				74E36BDE1F5449B30052FA94 /* SearchWorker.swift in Sources */,
 				744B184A1F55D58F00169CBF /* FeedConfigurator.swift in Sources */,
 				744B187C1F55D67100169CBF /* HMAC.swift in Sources */,
 				744B186A1F55D66800169CBF /* JSON.swift in Sources */,
@@ -1219,7 +1195,6 @@
 				744B187F1F55D67100169CBF /* UIView+Borders.swift in Sources */,
 				744B186F1F55D66800169CBF /* TwitterRequest.swift in Sources */,
 				744B186C1F55D66800169CBF /* Credential.swift in Sources */,
-				744B18951F55D69200169CBF /* MainWorker.swift in Sources */,
 				744B18961F55D69200169CBF /* MainRouter.swift in Sources */,
 				744B18501F55D5B000169CBF /* TrendsInteractor.swift in Sources */,
 			);
@@ -1250,7 +1225,6 @@
 				744B189F1F55D69300169CBF /* MainInitializer.swift in Sources */,
 				744B185D1F55D63C00169CBF /* TwitterClientProtocol.swift in Sources */,
 				744B18781F55D66800169CBF /* OAuthClient.swift in Sources */,
-				744B189D1F55D69300169CBF /* MainWorker.swift in Sources */,
 				74E36C0D1F5478130052FA94 /* TrendsPresenter.swift in Sources */,
 				744B18761F55D66800169CBF /* TwitterAuth.swift in Sources */,
 				744B18531F55D5CD00169CBF /* Trends.swift in Sources */,
@@ -1261,7 +1235,6 @@
 				7417854F1F4BAA360066E23B /* InvolvesTTUITests.swift in Sources */,
 				744B18491F55D57D00169CBF /* FeedModels.swift in Sources */,
 				744B18771F55D66800169CBF /* TwitterError.swift in Sources */,
-				74E36C101F5478130052FA94 /* TrendsWorker.swift in Sources */,
 				744B18551F55D5D900169CBF /* FeedPresenter.swift in Sources */,
 				744B18901F55D67200169CBF /* Data+Extension.swift in Sources */,
 				74E36C371F5481F80052FA94 /* TrendsTableViewCell.swift in Sources */,
@@ -1271,7 +1244,6 @@
 				744B18891F55D67200169CBF /* Utils.swift in Sources */,
 				744B18A21F55D69300169CBF /* MainConfigurator.swift in Sources */,
 				74E36BCA1F543BCF0052FA94 /* TweetCell.swift in Sources */,
-				74E36BDF1F5449B30052FA94 /* SearchWorker.swift in Sources */,
 				74E36BFE1F5456D90052FA94 /* SearchViewController+UISearchBar.swift in Sources */,
 				744B18931F55D67900169CBF /* AppDelegate.swift in Sources */,
 				741785981F4BC1260066E23B /* LoginInteractor.swift in Sources */,
