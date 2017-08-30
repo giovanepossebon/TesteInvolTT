@@ -8,6 +8,7 @@
 * Uso do .gitignore para evitar problema de versionamento com outros desenvolvedores
 * Poderia ter utilizado a lib do Twitter(TwitterKit) e finalizado o teste no mesmo dia, mas acredito que isso não sirva para medir o conhecimento, por esse motivo a única lib no Podfile é para facilitar no trabalho com OAuth.
 * Não foi usado o login nativo do iOS pois o Social Framework será removido no iOS 11.
+* Esqueci que o GitHub não cria o master automaticamente, como estou acostumado, então precisei criar com o --orphan e remover os arquivos, depois disso fiz o commit e protegi a branch.
 
 
 ### Screenshots
