@@ -71,6 +71,7 @@ class MainViewController: UIViewController, MainViewInput
         self.activeViewController = feed
         
         self.title = "Timeline"
+        self.navigationItem.setHidesBackButton(true, animated:true);
         
         feedBtOriginY = feedButton.frame.origin.y
         trendsBtOriginY = trendsButton.frame.origin.y

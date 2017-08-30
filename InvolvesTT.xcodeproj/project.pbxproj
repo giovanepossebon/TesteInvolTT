@@ -40,6 +40,91 @@
 		7423C71D1F524505009F75D1 /* TwitterTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C71C1F524505009F75D1 /* TwitterTimeline.swift */; };
 		7423C71F1F52466D009F75D1 /* TwitterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C71E1F52466D009F75D1 /* TwitterTrends.swift */; };
 		7423C7211F5246A4009F75D1 /* TwitterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C7201F5246A4009F75D1 /* TwitterSearch.swift */; };
+		744B18461F55D56600169CBF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAF1F537C470052FA94 /* FeedViewController.swift */; };
+		744B18471F55D56700169CBF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAF1F537C470052FA94 /* FeedViewController.swift */; };
+		744B18481F55D57C00169CBF /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAE1F537C470052FA94 /* FeedModels.swift */; };
+		744B18491F55D57D00169CBF /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAE1F537C470052FA94 /* FeedModels.swift */; };
+		744B184A1F55D58F00169CBF /* FeedConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BB11F537C470052FA94 /* FeedConfigurator.swift */; };
+		744B184B1F55D59000169CBF /* FeedConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BB11F537C470052FA94 /* FeedConfigurator.swift */; };
+		744B184C1F55D59B00169CBF /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAC1F537C470052FA94 /* FeedRouter.swift */; };
+		744B184D1F55D59B00169CBF /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAC1F537C470052FA94 /* FeedRouter.swift */; };
+		744B184F1F55D5A900169CBF /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CEB1F4E051100E77C30 /* JSON.swift */; };
+		744B18501F55D5B000169CBF /* TrendsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C091F5478130052FA94 /* TrendsInteractor.swift */; };
+		744B18511F55D5B000169CBF /* TrendsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C091F5478130052FA94 /* TrendsInteractor.swift */; };
+		744B18521F55D5C400169CBF /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BBF1F5412CF0052FA94 /* Tweet.swift */; };
+		744B18531F55D5CD00169CBF /* Trends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36C301F547E920052FA94 /* Trends.swift */; };
+		744B18541F55D5D900169CBF /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAA1F537C470052FA94 /* FeedPresenter.swift */; };
+		744B18551F55D5D900169CBF /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BAA1F537C470052FA94 /* FeedPresenter.swift */; };
+		744B18571F55D5E300169CBF /* InvolvesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C90F451F4CCE49008C0B6E /* InvolvesAPI.swift */; };
+		744B18581F55D5EE00169CBF /* FeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BB01F537C470052FA94 /* FeedInteractor.swift */; };
+		744B18591F55D5EE00169CBF /* FeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BB01F537C470052FA94 /* FeedInteractor.swift */; };
+		744B185B1F55D63200169CBF /* TwitterTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C71C1F524505009F75D1 /* TwitterTimeline.swift */; };
+		744B185D1F55D63C00169CBF /* TwitterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CFB1F4E205200E77C30 /* TwitterClientProtocol.swift */; };
+		744B185E1F55D64300169CBF /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF51F4E19EB00E77C30 /* TwitterRequest.swift */; };
+		744B18611F55D64B00169CBF /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CED1F4E070400E77C30 /* Credential.swift */; };
+		744B18621F55D65F00169CBF /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BA51F52A7A10052FA94 /* CustomStackView.swift */; };
+		744B18631F55D66000169CBF /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BA51F52A7A10052FA94 /* CustomStackView.swift */; };
+		744B186A1F55D66800169CBF /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CEB1F4E051100E77C30 /* JSON.swift */; };
+		744B186B1F55D66800169CBF /* InvolvesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C90F451F4CCE49008C0B6E /* InvolvesAPI.swift */; };
+		744B186C1F55D66800169CBF /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CED1F4E070400E77C30 /* Credential.swift */; };
+		744B186D1F55D66800169CBF /* TwitterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF11F4E088700E77C30 /* TwitterAuth.swift */; };
+		744B186E1F55D66800169CBF /* TwitterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF31F4E0D3600E77C30 /* TwitterError.swift */; };
+		744B186F1F55D66800169CBF /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF51F4E19EB00E77C30 /* TwitterRequest.swift */; };
+		744B18701F55D66800169CBF /* TwitterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CFB1F4E205200E77C30 /* TwitterClientProtocol.swift */; };
+		744B18711F55D66800169CBF /* OAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CFD1F4E280700E77C30 /* OAuthClient.swift */; };
+		744B18721F55D66800169CBF /* AppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D011F4E2DC300E77C30 /* AppOnlyClient.swift */; };
+		744B18731F55D66800169CBF /* TwitterTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C71C1F524505009F75D1 /* TwitterTimeline.swift */; };
+		744B18741F55D66800169CBF /* TwitterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C71E1F52466D009F75D1 /* TwitterTrends.swift */; };
+		744B18751F55D66800169CBF /* TwitterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C7201F5246A4009F75D1 /* TwitterSearch.swift */; };
+		744B18761F55D66800169CBF /* TwitterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF11F4E088700E77C30 /* TwitterAuth.swift */; };
+		744B18771F55D66800169CBF /* TwitterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF31F4E0D3600E77C30 /* TwitterError.swift */; };
+		744B18781F55D66800169CBF /* OAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CFD1F4E280700E77C30 /* OAuthClient.swift */; };
+		744B18791F55D66800169CBF /* AppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D011F4E2DC300E77C30 /* AppOnlyClient.swift */; };
+		744B187A1F55D66800169CBF /* TwitterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C71E1F52466D009F75D1 /* TwitterTrends.swift */; };
+		744B187B1F55D66800169CBF /* TwitterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423C7201F5246A4009F75D1 /* TwitterSearch.swift */; };
+		744B187C1F55D67100169CBF /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D041F4E2EAF00E77C30 /* HMAC.swift */; };
+		744B187D1F55D67100169CBF /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D051F4E2EAF00E77C30 /* SHA1.swift */; };
+		744B187E1F55D67100169CBF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D061F4E2EAF00E77C30 /* Utils.swift */; };
+		744B187F1F55D67100169CBF /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C90F421F4CC4BA008C0B6E /* UIView+Borders.swift */; };
+		744B18801F55D67100169CBF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C90F401F4CC3D0008C0B6E /* CustomTextField.swift */; };
+		744B18811F55D67100169CBF /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CEF1F4E075D00E77C30 /* String+Extensions.swift */; };
+		744B18821F55D67100169CBF /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF71F4E1B1B00E77C30 /* Dictionary+Extensions.swift */; };
+		744B18831F55D67100169CBF /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF91F4E1B4B00E77C30 /* URL+Extensions.swift */; };
+		744B18841F55D67100169CBF /* Operator++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CFF1F4E28CD00E77C30 /* Operator++.swift */; };
+		744B18851F55D67100169CBF /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D0A1F4E313E00E77C30 /* Data+Extension.swift */; };
+		744B18861F55D67100169CBF /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D0C1F4E317200E77C30 /* Scanner.swift */; };
+		744B18871F55D67200169CBF /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D041F4E2EAF00E77C30 /* HMAC.swift */; };
+		744B18881F55D67200169CBF /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D051F4E2EAF00E77C30 /* SHA1.swift */; };
+		744B18891F55D67200169CBF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D061F4E2EAF00E77C30 /* Utils.swift */; };
+		744B188A1F55D67200169CBF /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C90F421F4CC4BA008C0B6E /* UIView+Borders.swift */; };
+		744B188B1F55D67200169CBF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C90F401F4CC3D0008C0B6E /* CustomTextField.swift */; };
+		744B188C1F55D67200169CBF /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CEF1F4E075D00E77C30 /* String+Extensions.swift */; };
+		744B188D1F55D67200169CBF /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF71F4E1B1B00E77C30 /* Dictionary+Extensions.swift */; };
+		744B188E1F55D67200169CBF /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CF91F4E1B4B00E77C30 /* URL+Extensions.swift */; };
+		744B188F1F55D67200169CBF /* Operator++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CFF1F4E28CD00E77C30 /* Operator++.swift */; };
+		744B18901F55D67200169CBF /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D0A1F4E313E00E77C30 /* Data+Extension.swift */; };
+		744B18911F55D67200169CBF /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871D0C1F4E317200E77C30 /* Scanner.swift */; };
+		744B18921F55D67800169CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417852E1F4BAA360066E23B /* AppDelegate.swift */; };
+		744B18931F55D67900169CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417852E1F4BAA360066E23B /* AppDelegate.swift */; };
+		744B18941F55D69200169CBF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B901F529CE40052FA94 /* MainPresenter.swift */; };
+		744B18951F55D69200169CBF /* MainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B911F529CE40052FA94 /* MainWorker.swift */; };
+		744B18961F55D69200169CBF /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B921F529CE40052FA94 /* MainRouter.swift */; };
+		744B18971F55D69200169CBF /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B931F529CE40052FA94 /* MainInitializer.swift */; };
+		744B18981F55D69200169CBF /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B941F529CE40052FA94 /* MainModels.swift */; };
+		744B18991F55D69200169CBF /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B961F529CE40052FA94 /* MainInteractor.swift */; };
+		744B189A1F55D69200169CBF /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B971F529CE40052FA94 /* MainConfigurator.swift */; };
+		744B189B1F55D69200169CBF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BA01F529D0D0052FA94 /* MainViewController.swift */; };
+		744B189C1F55D69300169CBF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B901F529CE40052FA94 /* MainPresenter.swift */; };
+		744B189D1F55D69300169CBF /* MainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B911F529CE40052FA94 /* MainWorker.swift */; };
+		744B189E1F55D69300169CBF /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B921F529CE40052FA94 /* MainRouter.swift */; };
+		744B189F1F55D69300169CBF /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B931F529CE40052FA94 /* MainInitializer.swift */; };
+		744B18A01F55D69300169CBF /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B941F529CE40052FA94 /* MainModels.swift */; };
+		744B18A11F55D69300169CBF /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B961F529CE40052FA94 /* MainInteractor.swift */; };
+		744B18A21F55D69300169CBF /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36B971F529CE40052FA94 /* MainConfigurator.swift */; };
+		744B18A31F55D69300169CBF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36BA01F529D0D0052FA94 /* MainViewController.swift */; };
+		744B18A51F55E73500169CBF /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B18A41F55E73500169CBF /* FeedViewControllerTests.swift */; };
+		744B18A81F56496700169CBF /* FeedConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B18A71F56496700169CBF /* FeedConfiguratorTests.swift */; };
+		744B18A91F56496700169CBF /* FeedConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B18A71F56496700169CBF /* FeedConfiguratorTests.swift */; };
 		74871CE01F4CEA7900E77C30 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74871CDF1F4CEA7900E77C30 /* SafariServices.framework */; };
 		74871CEC1F4E051100E77C30 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CEB1F4E051100E77C30 /* JSON.swift */; };
 		74871CEE1F4E070400E77C30 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74871CED1F4E070400E77C30 /* Credential.swift */; };
@@ -161,6 +246,7 @@
 		74E36C381F5481F80052FA94 /* TrendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E36C341F5481F80052FA94 /* TrendsTableViewCell.xib */; };
 		74E36C391F5481F80052FA94 /* TrendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E36C341F5481F80052FA94 /* TrendsTableViewCell.xib */; };
 		74E36C3A1F5481F80052FA94 /* TrendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E36C341F5481F80052FA94 /* TrendsTableViewCell.xib */; };
+		74F10A8A1F54A5D50094D6D7 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F10A891F54A5D50094D6D7 /* FeedPresenterTests.swift */; };
 		CB2AF3F6CD114F5E54550F00 /* Pods_InvolvesTTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFDA916AEC51C0BF19161BA /* Pods_InvolvesTTUITests.framework */; };
 		D3227E1997B8B3D762848FC1 /* Pods_InvolvesTTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA0D5E5D63F862B3842A855 /* Pods_InvolvesTTTests.framework */; };
 /* End PBXBuildFile section */
@@ -209,6 +295,8 @@
 		7423C71C1F524505009F75D1 /* TwitterTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterTimeline.swift; path = Common/API/TwitterTimeline.swift; sourceTree = "<group>"; };
 		7423C71E1F52466D009F75D1 /* TwitterTrends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterTrends.swift; path = Common/API/TwitterTrends.swift; sourceTree = "<group>"; };
 		7423C7201F5246A4009F75D1 /* TwitterSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterSearch.swift; path = Common/API/TwitterSearch.swift; sourceTree = "<group>"; };
+		744B18A41F55E73500169CBF /* FeedViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewControllerTests.swift; path = InvolvesTTUITests/FeedViewControllerTests.swift; sourceTree = SOURCE_ROOT; };
+		744B18A71F56496700169CBF /* FeedConfiguratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedConfiguratorTests.swift; path = Feed/FeedConfiguratorTests.swift; sourceTree = "<group>"; };
 		74871CDF1F4CEA7900E77C30 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		74871CEB1F4E051100E77C30 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		74871CED1F4E070400E77C30 /* Credential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Credential.swift; path = Common/API/Credential.swift; sourceTree = "<group>"; };
@@ -278,6 +366,7 @@
 		74E36C301F547E920052FA94 /* Trends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trends.swift; path = Common/Models/Trends.swift; sourceTree = "<group>"; };
 		74E36C331F5481F80052FA94 /* TrendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrendsTableViewCell.swift; path = Modules/Trends/TrendsTableViewCell.swift; sourceTree = "<group>"; };
 		74E36C341F5481F80052FA94 /* TrendsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrendsTableViewCell.xib; path = Modules/Trends/TrendsTableViewCell.xib; sourceTree = "<group>"; };
+		74F10A891F54A5D50094D6D7 /* FeedPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedPresenterTests.swift; path = Feed/FeedPresenterTests.swift; sourceTree = "<group>"; };
 		A4C739E69013CBBC17983730 /* Pods-InvolvesTTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvolvesTTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvolvesTTUITests/Pods-InvolvesTTUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B1EA2FBC76B8925B9BCA85B5 /* Pods-InvolvesTTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvolvesTTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvolvesTTTests/Pods-InvolvesTTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1581B383C4179444850BDC8 /* Pods-InvolvesTTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvolvesTTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvolvesTTTests/Pods-InvolvesTTTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -362,6 +451,7 @@
 		741785421F4BAA360066E23B /* InvolvesTTTests */ = {
 			isa = PBXGroup;
 			children = (
+				74F10A881F54A5760094D6D7 /* Feed */,
 				741785431F4BAA360066E23B /* InvolvesTTTests.swift */,
 				741785451F4BAA360066E23B /* Info.plist */,
 			);
@@ -639,6 +729,16 @@
 				74E36C341F5481F80052FA94 /* TrendsTableViewCell.xib */,
 			);
 			name = VIews;
+			sourceTree = "<group>";
+		};
+		74F10A881F54A5760094D6D7 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				74F10A891F54A5D50094D6D7 /* FeedPresenterTests.swift */,
+				744B18A41F55E73500169CBF /* FeedViewControllerTests.swift */,
+				744B18A71F56496700169CBF /* FeedConfiguratorTests.swift */,
+			);
+			name = Feed;
 			sourceTree = "<group>";
 		};
 		C62B8E92CCF0CABAD285FA36 /* Frameworks */ = {
@@ -1049,36 +1149,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				7417858E1F4BC1260066E23B /* LoginInitializer.swift in Sources */,
+				744B18721F55D66800169CBF /* AppOnlyClient.swift in Sources */,
 				741785851F4BC1260066E23B /* LoginPresenter.swift in Sources */,
 				74E36C0F1F5478130052FA94 /* TrendsWorker.swift in Sources */,
+				744B18841F55D67100169CBF /* Operator++.swift in Sources */,
+				744B18851F55D67100169CBF /* Data+Extension.swift in Sources */,
+				744B18481F55D57C00169CBF /* FeedModels.swift in Sources */,
+				744B18801F55D67100169CBF /* CustomTextField.swift in Sources */,
 				74E36BDB1F5449B30052FA94 /* SearchPresenter.swift in Sources */,
+				744B18821F55D67100169CBF /* Dictionary+Extensions.swift in Sources */,
 				74E36C2E1F5478DD0052FA94 /* TrendsViewController+UITableView.swift in Sources */,
+				744B18751F55D66800169CBF /* TwitterSearch.swift in Sources */,
+				744B18A81F56496700169CBF /* FeedConfiguratorTests.swift in Sources */,
+				744B18741F55D66800169CBF /* TwitterTrends.swift in Sources */,
+				744B18971F55D69200169CBF /* MainInitializer.swift in Sources */,
 				74E36BEA1F5449B30052FA94 /* SearchViewController.swift in Sources */,
+				744B189B1F55D69200169CBF /* MainViewController.swift in Sources */,
+				744B18731F55D66800169CBF /* TwitterTimeline.swift in Sources */,
 				74E36BDE1F5449B30052FA94 /* SearchWorker.swift in Sources */,
+				744B184A1F55D58F00169CBF /* FeedConfigurator.swift in Sources */,
+				744B187C1F55D67100169CBF /* HMAC.swift in Sources */,
+				744B186A1F55D66800169CBF /* JSON.swift in Sources */,
+				744B18461F55D56600169CBF /* FeedViewController.swift in Sources */,
 				74E36C1B1F5478130052FA94 /* TrendsViewController.swift in Sources */,
+				744B18711F55D66800169CBF /* OAuthClient.swift in Sources */,
 				74E36C121F5478130052FA94 /* TrendsRouter.swift in Sources */,
+				744B184C1F55D59B00169CBF /* FeedRouter.swift in Sources */,
+				744B18541F55D5D900169CBF /* FeedPresenter.swift in Sources */,
 				741785441F4BAA360066E23B /* InvolvesTTTests.swift in Sources */,
 				74E36C361F5481F80052FA94 /* TrendsTableViewCell.swift in Sources */,
+				744B18811F55D67100169CBF /* String+Extensions.swift in Sources */,
 				74E36BF01F5449B30052FA94 /* SearchConfigurator.swift in Sources */,
 				74E36C211F5478130052FA94 /* TrendsConfigurator.swift in Sources */,
 				74E36BC11F5412CF0052FA94 /* Tweet.swift in Sources */,
 				741785971F4BC1260066E23B /* LoginInteractor.swift in Sources */,
+				744B18991F55D69200169CBF /* MainInteractor.swift in Sources */,
+				744B18621F55D65F00169CBF /* CustomStackView.swift in Sources */,
 				74E36BE71F5449B30052FA94 /* SearchModels.swift in Sources */,
+				744B18A51F55E73500169CBF /* FeedViewControllerTests.swift in Sources */,
 				74E36C011F545CAC0052FA94 /* SearchViewController+UITableView.swift in Sources */,
 				74E36BFD1F5456D90052FA94 /* SearchViewController+UISearchBar.swift in Sources */,
+				744B18581F55D5EE00169CBF /* FeedInteractor.swift in Sources */,
+				74F10A8A1F54A5D50094D6D7 /* FeedPresenterTests.swift in Sources */,
 				741785911F4BC1260066E23B /* LoginModels.swift in Sources */,
+				744B18831F55D67100169CBF /* URL+Extensions.swift in Sources */,
+				744B18921F55D67800169CBF /* AppDelegate.swift in Sources */,
+				744B18861F55D67100169CBF /* Scanner.swift in Sources */,
 				7417859A1F4BC1260066E23B /* LoginConfigurator.swift in Sources */,
 				74E36BC91F543BCF0052FA94 /* TweetCell.swift in Sources */,
+				744B186E1F55D66800169CBF /* TwitterError.swift in Sources */,
+				744B18941F55D69200169CBF /* MainPresenter.swift in Sources */,
 				74E36BED1F5449B30052FA94 /* SearchInteractor.swift in Sources */,
 				74E36C321F547E920052FA94 /* Trends.swift in Sources */,
 				74E36C0C1F5478130052FA94 /* TrendsPresenter.swift in Sources */,
+				744B187E1F55D67100169CBF /* Utils.swift in Sources */,
+				744B186D1F55D66800169CBF /* TwitterAuth.swift in Sources */,
 				74E36BE11F5449B30052FA94 /* SearchRouter.swift in Sources */,
+				744B186B1F55D66800169CBF /* InvolvesAPI.swift in Sources */,
 				74E36C151F5478130052FA94 /* TrendsInitializer.swift in Sources */,
 				74E36BD01F543E530052FA94 /* FeedViewController+TableView.swift in Sources */,
+				744B189A1F55D69200169CBF /* MainConfigurator.swift in Sources */,
 				7417858B1F4BC1260066E23B /* LoginRouter.swift in Sources */,
 				741785A01F4BC1500066E23B /* LoginViewController.swift in Sources */,
+				744B18701F55D66800169CBF /* TwitterClientProtocol.swift in Sources */,
 				74E36BE41F5449B30052FA94 /* SearchInitializer.swift in Sources */,
 				74E36C181F5478130052FA94 /* TrendsModels.swift in Sources */,
+				744B187D1F55D67100169CBF /* SHA1.swift in Sources */,
+				744B18981F55D69200169CBF /* MainModels.swift in Sources */,
+				744B187F1F55D67100169CBF /* UIView+Borders.swift in Sources */,
+				744B186F1F55D66800169CBF /* TwitterRequest.swift in Sources */,
+				744B186C1F55D66800169CBF /* Credential.swift in Sources */,
+				744B18951F55D69200169CBF /* MainWorker.swift in Sources */,
+				744B18961F55D69200169CBF /* MainRouter.swift in Sources */,
+				744B18501F55D5B000169CBF /* TrendsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1086,35 +1229,78 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744B18A01F55D69300169CBF /* MainModels.swift in Sources */,
 				74E36BF11F5449B30052FA94 /* SearchConfigurator.swift in Sources */,
+				744B18791F55D66800169CBF /* AppOnlyClient.swift in Sources */,
 				74E36BEE1F5449B30052FA94 /* SearchInteractor.swift in Sources */,
 				74E36C1C1F5478130052FA94 /* TrendsViewController.swift in Sources */,
+				744B18881F55D67200169CBF /* SHA1.swift in Sources */,
+				744B18521F55D5C400169CBF /* Tweet.swift in Sources */,
+				744B18511F55D5B000169CBF /* TrendsInteractor.swift in Sources */,
+				744B18871F55D67200169CBF /* HMAC.swift in Sources */,
 				74E36C131F5478130052FA94 /* TrendsRouter.swift in Sources */,
+				744B18591F55D5EE00169CBF /* FeedInteractor.swift in Sources */,
+				744B185E1F55D64300169CBF /* TwitterRequest.swift in Sources */,
 				74E36BDC1F5449B30052FA94 /* SearchPresenter.swift in Sources */,
+				744B18A31F55D69300169CBF /* MainViewController.swift in Sources */,
+				744B18571F55D5E300169CBF /* InvolvesAPI.swift in Sources */,
+				744B188C1F55D67200169CBF /* String+Extensions.swift in Sources */,
+				744B188E1F55D67200169CBF /* URL+Extensions.swift in Sources */,
 				7417858F1F4BC1260066E23B /* LoginInitializer.swift in Sources */,
+				744B189F1F55D69300169CBF /* MainInitializer.swift in Sources */,
+				744B185D1F55D63C00169CBF /* TwitterClientProtocol.swift in Sources */,
+				744B18781F55D66800169CBF /* OAuthClient.swift in Sources */,
+				744B189D1F55D69300169CBF /* MainWorker.swift in Sources */,
 				74E36C0D1F5478130052FA94 /* TrendsPresenter.swift in Sources */,
+				744B18761F55D66800169CBF /* TwitterAuth.swift in Sources */,
+				744B18531F55D5CD00169CBF /* Trends.swift in Sources */,
+				744B188F1F55D67200169CBF /* Operator++.swift in Sources */,
 				741785861F4BC1260066E23B /* LoginPresenter.swift in Sources */,
+				744B18631F55D66000169CBF /* CustomStackView.swift in Sources */,
+				744B187A1F55D66800169CBF /* TwitterTrends.swift in Sources */,
 				7417854F1F4BAA360066E23B /* InvolvesTTUITests.swift in Sources */,
+				744B18491F55D57D00169CBF /* FeedModels.swift in Sources */,
+				744B18771F55D66800169CBF /* TwitterError.swift in Sources */,
 				74E36C101F5478130052FA94 /* TrendsWorker.swift in Sources */,
+				744B18551F55D5D900169CBF /* FeedPresenter.swift in Sources */,
+				744B18901F55D67200169CBF /* Data+Extension.swift in Sources */,
 				74E36C371F5481F80052FA94 /* TrendsTableViewCell.swift in Sources */,
+				744B188B1F55D67200169CBF /* CustomTextField.swift in Sources */,
+				744B187B1F55D66800169CBF /* TwitterSearch.swift in Sources */,
+				744B18911F55D67200169CBF /* Scanner.swift in Sources */,
+				744B18891F55D67200169CBF /* Utils.swift in Sources */,
+				744B18A21F55D69300169CBF /* MainConfigurator.swift in Sources */,
 				74E36BCA1F543BCF0052FA94 /* TweetCell.swift in Sources */,
 				74E36BDF1F5449B30052FA94 /* SearchWorker.swift in Sources */,
 				74E36BFE1F5456D90052FA94 /* SearchViewController+UISearchBar.swift in Sources */,
+				744B18931F55D67900169CBF /* AppDelegate.swift in Sources */,
 				741785981F4BC1260066E23B /* LoginInteractor.swift in Sources */,
 				74E36C021F545CAC0052FA94 /* SearchViewController+UITableView.swift in Sources */,
 				741785921F4BC1260066E23B /* LoginModels.swift in Sources */,
+				744B189C1F55D69300169CBF /* MainPresenter.swift in Sources */,
 				74E36BD11F543E530052FA94 /* FeedViewController+TableView.swift in Sources */,
 				7417859B1F4BC1260066E23B /* LoginConfigurator.swift in Sources */,
 				74E36BEB1F5449B30052FA94 /* SearchViewController.swift in Sources */,
+				744B188A1F55D67200169CBF /* UIView+Borders.swift in Sources */,
 				74E36BE51F5449B30052FA94 /* SearchInitializer.swift in Sources */,
 				7417858C1F4BC1260066E23B /* LoginRouter.swift in Sources */,
+				744B18471F55D56700169CBF /* FeedViewController.swift in Sources */,
+				744B18A91F56496700169CBF /* FeedConfiguratorTests.swift in Sources */,
+				744B184B1F55D59000169CBF /* FeedConfigurator.swift in Sources */,
+				744B189E1F55D69300169CBF /* MainRouter.swift in Sources */,
 				74E36C221F5478130052FA94 /* TrendsConfigurator.swift in Sources */,
 				74E36C191F5478130052FA94 /* TrendsModels.swift in Sources */,
+				744B184D1F55D59B00169CBF /* FeedRouter.swift in Sources */,
+				744B185B1F55D63200169CBF /* TwitterTimeline.swift in Sources */,
 				741785A11F4BC1500066E23B /* LoginViewController.swift in Sources */,
+				744B18611F55D64B00169CBF /* Credential.swift in Sources */,
 				74E36BE21F5449B30052FA94 /* SearchRouter.swift in Sources */,
+				744B188D1F55D67200169CBF /* Dictionary+Extensions.swift in Sources */,
 				74E36C161F5478130052FA94 /* TrendsInitializer.swift in Sources */,
+				744B184F1F55D5A900169CBF /* JSON.swift in Sources */,
 				74E36BE81F5449B30052FA94 /* SearchModels.swift in Sources */,
 				74E36C2F1F5478DD0052FA94 /* TrendsViewController+UITableView.swift in Sources */,
+				744B18A11F55D69300169CBF /* MainInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

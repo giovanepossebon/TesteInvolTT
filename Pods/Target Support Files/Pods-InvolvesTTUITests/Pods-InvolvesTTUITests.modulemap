@@ -1,0 +1,6 @@
+framework module Pods_InvolvesTTUITests {
+  umbrella header "Pods-InvolvesTTUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

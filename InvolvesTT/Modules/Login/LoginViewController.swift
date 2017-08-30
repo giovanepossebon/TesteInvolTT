@@ -23,11 +23,6 @@ class LoginViewController: UIViewController, LoginViewInput
     var output:  LoginViewOutput!
     
     
-    // MARK: IBOutlets
-    @IBOutlet weak var loginTextField: CustomTextField!
-    @IBOutlet weak var passwordTextField: CustomTextField!
-    
-    
     // MARK: Object lifecycle
     override func awakeFromNib()
     {
@@ -50,19 +45,11 @@ class LoginViewController: UIViewController, LoginViewInput
         configurator.configureModuleForViewInput(viewInput: self)
     }
     
-    deinit {
-        NotificationCenter.default.removeObserver(self)
-    }
-    
     // MARK: View lifecycle
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
-        NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillShow(sender:)), name: NSNotification.Name.UIKeyboardDidShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillHide(sender:)), name: NSNotification.Name.UIKeyboardDidHide, object: nil)
-        configureViews()
     }
     
     
@@ -71,27 +58,7 @@ class LoginViewController: UIViewController, LoginViewInput
         self.navigationController?.navigationBar.isHidden = true
     }
     
-    
-    private func configureViews(){
-        _ = loginTextField.addBorder(edges: [.bottom], color: UIColor.white, thickness: 0.5)
-        _ = passwordTextField.addBorder(edges: [.bottom], color: UIColor.white, thickness: 0.5)
-        loginTextField.delegate = self
-        passwordTextField.delegate = self
-    }
-    
-    ///Control view when keyboard appears
-    func keyboardWillShow(sender: NSNotification) {
-        if let userInfo = sender.userInfo{
-            if let keySize = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue{
-                self.view.frame.origin.y = -keySize.cgRectValue.height
-            }
-        }
-    }
-    
-    func keyboardWillHide(sender: NSNotification) {
-        self.view.frame.origin.y = 0 // Move view to original position
-    }
-    
+
     // MARK: IBActions
     @IBAction func didLoginTapped(_ sender: Any) {
         self.output.login()
@@ -113,19 +80,4 @@ extension LoginViewController: SFSafariViewControllerDelegate{
         controller.dismiss(animated: true, completion: nil)
     }
     
-}
-
-
-extension LoginViewController: UITextFieldDelegate{
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        
-        return true
-    }
-    
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        if textField.text == "Email" || textField.text == "password"{
-            textField.text = ""
-        }
-    }
 }
